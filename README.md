@@ -1,3 +1,10 @@
+# Steps
+1) Install node js 
+2) Install Angular CLI ( npm install -g @angular/cli )
+3) Create Angular App ( ng new Scribe )
+4) Copy and Paste all the code from the downloaded files to the Scribe folder and replace all.
+5) Enter the Scribe Folder ( cd Scribe )
+6) Run the application ( ng serve --open )
 # Scribe
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
