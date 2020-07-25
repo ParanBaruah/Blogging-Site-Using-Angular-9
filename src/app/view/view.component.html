@@ -1,0 +1,12 @@
+<div class="row mt-5">
+    <div class="col-lg-8 offset-lg-2">
+        <h1>{{ post.title }}</h1>
+        <div [innerHTML]="post.content"></div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-lg-8 offset-lg-2">
+        <app-comments [postId]="postId"></app-comments>
+    </div>
+</div>

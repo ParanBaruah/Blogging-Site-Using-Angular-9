@@ -1,0 +1,46 @@
+<div class="container">
+  
+    <div class="row">
+      <div class="offset-sm-2 col-sm-8">
+  
+        <div class="card text-blank border-0">
+          <div class="card-body">
+            <div class="card-title text-center">
+              <h5>Simple Interest</h5>
+            </div>
+  
+            <div class="card-text">
+  
+                <div class="form-group">
+                  <input type="number" placeholder="Principal" class="form-control" [(ngModel)]="principal">
+                </div>
+  
+                <div class="form-group">
+                  <input type="number" class="form-control" placeholder="Rate" [(ngModel)]="rate">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" placeholder="Time (in months)" [(ngModel)]="timeInMonths">
+                  </div>
+  
+            
+                
+                <div class="text-center mb-3">
+                  <button type="button" class="btn btn-block btn-warning" (click)="add()">Calculate SI</button>
+                </div>
+  
+                <div class="form-group">
+                  <input type="number" class="form-control" placeholder="Sum" [(ngModel)]="sum">
+                </div>
+                <div class="form-group">
+                    Amount : {{ principal + sum | currency: 'INR' }}
+                </div>
+
+  
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </div>
