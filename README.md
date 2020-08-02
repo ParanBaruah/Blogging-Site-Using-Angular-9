@@ -7,6 +7,8 @@
 6) Run the application ( ng serve --open )
 # Scribe
 
+Check the working model of the project ( https://scribe-d4f54.web.app )
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
 
 ## Development server
